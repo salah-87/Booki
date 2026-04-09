@@ -27,73 +27,59 @@
           <img src="images/logo/Booki.png" alt="Logo de Booki" />
         </a>
         <nav>
-          <div class="nav-title">
-            <p><a href="#hebergements">Hébergements</a></p>
-            <p><a href="#activites">Activités</a></p>
-          </div>
+          <ul class="nav-title">
+            <li><a href="#hebergements">Hébergements</a></li>
+            <li><a href="#activites">Activités</a></li>
+          </ul>
         </nav>
       </header>
 
       <main>
         <section>
-          <div class="textes">
-            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p>En plein centre-ville ou en pleine nature</p>
-          </div>
-          <form class="search-bar" method="get" action="#">
+          <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+          <p>En plein centre-ville ou en pleine nature</p>
+          <form class="search-bar">
             <label for="search_input" class="visually-hidden"
               >Rechercher un hébergement</label
             >
-            <div class="location">
-              <i class="fa-solid fa-location-dot fa-lg"></i>
-            </div>
-            <div class="destination">
-              <input
-                id="search_input"
-                type="search"
-                name="destination"
-                placeholder="Marseille, France"
-              />
-            </div>
-            <div class="button-research">
-              <button type="submit" aria-label="Rechercher">
-                <span class="research desktop-only"> Rechercher </span>
-                <i class="fa-solid fa-magnifying-glass mobile-only"></i>
-              </button>
-            </div>
+            <i class="fa-solid fa-location-dot fa-lg"></i>
+            <input
+              id="search_input"
+              type="search"
+              name="destination"
+              placeholder="Marseille, France"
+            />
+            <button type="submit" aria-label="Rechercher">
+              <span class="research desktop-only"> Rechercher </span>
+              <i class="fa-solid fa-magnifying-glass mobile-only"></i>
+            </button>
           </form>
-          <nav class="filter-bar" aria-label="Barre de filtres">
-            <div class="filter-list">
-              <h2>Filtres</h2>
-              <button type="button" class="button-filter">
-                <i class="fa-solid fa-money-bill-wave"></i>
-                <span class="filter"> Économique </span>
-              </button>
+          <div class="filter-list">
+            <h2>Filtres</h2>
+            <button type="button" class="button-filter">
+              <i class="fa-solid fa-money-bill-wave"></i>
+              <span class="filter"> Économique </span>
+            </button>
 
-              <button type="button" class="button-filter">
-                <i class="fa-solid fa-person"></i>
-                <span class="filter"> Familial </span>
-              </button>
+            <button type="button" class="button-filter">
+              <i class="fa-solid fa-person"></i>
+              <span class="filter"> Familial </span>
+            </button>
 
-              <button type="button" class="button-filter">
-                <i class="fa-solid fa-heart"></i>
-                <span class="filter"> Romantique </span>
-              </button>
+            <button type="button" class="button-filter">
+              <i class="fa-solid fa-heart"></i>
+              <span class="filter"> Romantique </span>
+            </button>
 
-              <button type="button" class="button-filter">
-                <i class="fa-solid fa-fire"></i>
-                <span class="filter"> Nos pépites </span>
-              </button>
-            </div>
-          </nav>
-          <div class="infobar">
-            <div class="circle">
-              <i class="fa-solid fa-info"></i>
-              <span class="infobar-msg">
-                Plus de 500 logements sont disponibles dans cette ville
-              </span>
-            </div>
+            <button type="button" class="button-filter">
+              <i class="fa-solid fa-fire"></i>
+              <span class="filter"> Nos pépites </span>
+            </button>
           </div>
+          <p class="infobar-msg">
+            <i class="fa-solid fa-info"></i>
+            Plus de 500 logements sont disponibles dans cette ville
+          </p>
         </section>
         <div class="hebergements-and-populaires">
           <section class="hebergements">
