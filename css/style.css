@@ -120,6 +120,9 @@ height: 100%;
     color: #000;
     opacity: 1;
 }
+.mobile-only {
+    display: none;
+}
 .button-filter {
     justify-content: center;
     gap: 8px;
@@ -410,5 +413,46 @@ footer h3 {
         width: 50%;
         text-align: center;
     }
+    .h1 {
+        margin-left: 15px;
+    }
+    .title-sub {
+        margin-left: 15px;
+    }
+    .search-bar {
+        margin-left: 20px;
+    }
+    .mobile-only {
+        color: #fff; 
+        display: block;
+        
+    }
+    .desktop-only {
+        display: none;
+    }
+    .button-all {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 5px;
+        row-gap: 15px;
+    }
+    .button-filter {
+        width: 48%;
+    }
+    .fa-info {
+        margin-left: 10px;
+    }
+    .infobar-msg {
+        margin-left: 10px;
+    }
+    .infobar-msg span {
+        display: flex;
+    }
+    .filtre {
+        font-size: 20px;
+        margin-left: 15px;
+    }
+
 
 }
