@@ -470,7 +470,9 @@ footer h3 {
     }
     .filtre {
         font-size: 20px;
-        margin-left: 15px;
+        /* same 15px offset as before, but inside the width: no horizontal scroll */
+        padding-left: 15px;
+        box-sizing: border-box;
     }
     .hebergements-and-populaires {
         flex-direction: column-reverse;
@@ -541,9 +543,9 @@ footer h3 {
     }
     .footer_content {
         width: 100%;
+        box-sizing: border-box; /* the 40px side padding stays inside the screen width */
         display: flex;
         flex-direction: column;
-       
     }
     .footer_col {
         width: 100%;
